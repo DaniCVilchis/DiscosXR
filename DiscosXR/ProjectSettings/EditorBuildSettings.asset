@@ -5,9 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/AR/DiscoAR.unity
+    guid: 506af93504d8cad48b69d5fefc57591f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9b736eb9b7679eb41b5f9824ac3397c0, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: b6575aa6d167ada429355f3ce3c48f64, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 30c13a1a2c835774684f73d8fe111db2, type: 2}
